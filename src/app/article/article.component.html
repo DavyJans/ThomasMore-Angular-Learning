@@ -1,0 +1,15 @@
+<article *ngIf="article">
+  <h1>{{article.title}}</h1>
+  <h4>{{article.subtitle}}</h4>
+  <figure>
+      <img src="{{article.imageUrl}}"
+          alt="{{article.imageCaption}}">
+      <figcaption>{{article.imageCaption}}</figcaption>
+  </figure>
+  <p>
+      {{article.content}}
+  </p>
+  <footer>
+      <p>Author: {{article.author}}, Published: {{article.publishDate}}, Editor: {{article.editor}}</p>
+  </footer>
+</article>
