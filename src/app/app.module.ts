@@ -9,6 +9,10 @@ import { HomeComponent } from './home/home.component';
 import { MenuComponent } from './menu/menu.component';
 import { AboutComponent } from './about/about.component';
 import { LatestNewsComponent } from './latest-news/latest-news.component';
+import { ArticleDetailComponent } from './article-detail/article-detail.component';
+
+import { ShortenContentPipe } from './shorten-content.pipe';
+
 
 @NgModule({
   declarations: [
@@ -18,7 +22,9 @@ import { LatestNewsComponent } from './latest-news/latest-news.component';
     HomeComponent,
     MenuComponent,
     AboutComponent,
-    LatestNewsComponent
+    LatestNewsComponent,
+    ArticleDetailComponent,
+    ShortenContentPipe
   ],
   imports: [
     BrowserModule,

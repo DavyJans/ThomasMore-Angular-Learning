@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+@import "variables";
+@import '/node_modules/materialize-css/sass/materialize.scss';
+
+//reboot
+@import "reboot";
+
+@import url('https://fonts.googleapis.com/css2?family=News+Cycle&display=swap');
+
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+$font-family-sans-serif: 'News Cycle', sans-serif;

@@ -22,7 +22,7 @@ export class HomeComponent implements OnInit {
   }
 
   filteredArticles(editor: string){
-     return this.articleService.getArticles().filter(x => x.editor === editor );
+     return editor === "" ? this.articleService.getArticles() : this.articleService.getArticles().filter(x => x.editor === editor);
 
 }
 
